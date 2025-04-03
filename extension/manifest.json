@@ -1,0 +1,15 @@
+{
+	"manifest_version": 3,
+	"name": "Textarea Sync",
+	"version": "0.1",
+	"permissions": ["activeTab", "scripting"],
+	"host_permissions": ["http://localhost:*/*"],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"content_scripts": [{
+		"matches": ["<all_urls>"],
+		"js": ["content.js"],
+		"run_at": "document_end"
+	}]
+}
