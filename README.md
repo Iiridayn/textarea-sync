@@ -7,6 +7,7 @@ I need a system with three parts.
 TODO - remove files when the page reloads or tab is closed; probably a keepalive
 of some kind. Eh, it works good enough for now.
 TODO - actually test it w/contenteditable
+TODO - inject in textareas hidden in iframes; feasible?
 
 NOTE - This code was hacked together in 4 hours using extensive GPT-4o support.
 It is not quality nor meant to be representative of quality. I just wanted the
