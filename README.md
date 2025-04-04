@@ -17,3 +17,15 @@ light/moderate modifications for the sake of speed. I've included the chat
 transcript for clarity; it cuts off suddenly due to reaching the maximum chat
 length. It gave enough information; I didn't want to fiddle w/the frontend, and
 it picked an adequate option.
+
+Also of note, the first 2 of those 4 hours were spent diagnosing websocket
+issues and in initial preparation. I started with some other code samples from
+AI and blogs about watching a file in Python, and had changed direction from a
+standard socket server to websockets. Much of that time was diagnosing that I
+couldn't connect directly to an unsecured websocket on localhost from a page
+environment, and in fact needed the three code file architecture noted above. AI
+was not very helpful in identifying the issue alone, but it was helpful coming
+up with some quick tests I could run when prompted. The provided transcript
+starts from the point those issues were resolved, I had a clear architectural
+direction, and had learned a bit more about the Python Observable library via
+documentation, blogs, and some simple tests.
